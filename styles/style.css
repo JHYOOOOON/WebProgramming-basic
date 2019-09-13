@@ -1,0 +1,47 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid grey;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+}
+
+.title {
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #020aab;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 5px 20px;
+    color: #ab0219;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #dedede;
+}
+
+.nav-item.active {
+    color: #0006c2;
+    text-decoration: none;
+}
+
+section {
+    padding: 0px 20px;
+}
